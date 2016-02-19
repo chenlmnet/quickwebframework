@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="sournergh-core:jar">
+    <output-path>$PROJECT_DIR$/target/artifacts/sournergh_core_jar</output-path>
+    <root id="root">
+      <element id="archive" name="sournergh-core.jar">
+        <element id="module-output" name="sournergh-core" />
+      </element>
+    </root>
+  </artifact>
+</component>
