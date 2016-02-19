@@ -20,4 +20,10 @@ public class StudentEditController {
 			HttpServletResponse response, String id) {
 		return "edit";
 	}
+
+	@RequestMapping(value = "test", method = RequestMethod.GET)
+	public String get_test(HttpServletRequest request,
+						   HttpServletResponse response, String id) {
+		return "test";
+	}
 }

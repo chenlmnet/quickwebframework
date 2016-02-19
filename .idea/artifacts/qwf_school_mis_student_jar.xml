@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="qwf-school-mis-student:jar">
+    <output-path>$PROJECT_DIR$/target/artifacts/qwf_school_mis_student_jar</output-path>
+    <root id="root">
+      <element id="archive" name="qwf-school-mis-student.jar">
+        <element id="module-output" name="qwf-school-mis-student" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-student/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

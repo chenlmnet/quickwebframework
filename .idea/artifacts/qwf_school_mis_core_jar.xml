@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="qwf-school-mis-core:jar">
+    <output-path>$PROJECT_DIR$/target/artifacts/qwf_school_mis_core_jar</output-path>
+    <root id="root">
+      <element id="archive" name="qwf-school-mis-core.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-core/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="qwf-school-mis-core" />
+        <element id="library" level="module" name="commons-io-2.2.jar" module-name="qwf-school-mis-core" />
+      </element>
+    </root>
+  </artifact>
+</component>

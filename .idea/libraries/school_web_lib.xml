@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="school-web-lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-web/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/qwf_web/src" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-web/web/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

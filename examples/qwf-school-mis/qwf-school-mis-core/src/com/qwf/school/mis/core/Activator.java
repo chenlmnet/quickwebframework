@@ -21,8 +21,7 @@ public class Activator implements BundleActivator {
 		Activator.context = bundleContext;
 		Map<String, String> subMenuMap = new HashMap<String, String>();
 		String contextPath = WebContext.getServletContext().getContextPath();
-		subMenuMap
-				.put("欢迎页", contextPath + "/qwf-school-mis-core/spring/index");
+		subMenuMap.put("欢迎页", contextPath + "/qwf-school-mis-core/spring/index");
 		subMenuMap.put("退出", "#");
 		MisMenuUtils.registerMenu("主菜单", subMenuMap);
 	}

@@ -3,6 +3,8 @@ package com.quickwebframework.db.jdbc;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.sql.SQLFeatureNotSupportedException;
+import java.util.logging.Logger;
 
 import javax.sql.DataSource;
 
@@ -27,6 +29,11 @@ public class DataSourceProxy implements DataSource {
 		return target.getLoginTimeout();
 	}
 
+	@Override
+	public Logger getParentLogger() throws SQLFeatureNotSupportedException {
+		return null;
+	}
+
 	public void setLogWriter(PrintWriter arg0) throws SQLException {
 		target.setLogWriter(arg0);
 	}
@@ -42,5 +49,15 @@ public class DataSourceProxy implements DataSource {
 	public Connection getConnection(String arg0, String arg1)
 			throws SQLException {
 		return target.getConnection(arg0, arg1);
+	}
+
+	@Override
+	public <T> T unwrap(Class<T> iface) throws SQLException {
+		return null;
+	}
+
+	@Override
+	public boolean isWrapperFor(Class<?> iface) throws SQLException {
+		return false;
 	}
 }
