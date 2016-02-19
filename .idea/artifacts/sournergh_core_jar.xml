@@ -1,10 +1,14 @@
 <component name="ArtifactManager">
-  <artifact name="sournergh-core:jar">
+  <artifact type="jar" name="sournergh-core:jar">
     <output-path>$PROJECT_DIR$/target/artifacts/sournergh_core_jar</output-path>
-    <root id="root">
-      <element id="archive" name="sournergh-core.jar">
-        <element id="module-output" name="sournergh-core" />
+    <root id="archive" name="sournergh-core.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/sournergh-core/src/META-INF/MANIFEST.MF" />
       </element>
+      <element id="library" level="application" name="com.google.code.gson:gson:2.6.1" />
+      <element id="library" level="application" name="com.sun.mail:javax.mail:1.4.5" />
+      <element id="library" level="application" name="org.springframework.data:spring-data-jpa:1.6.6.RELEASE" />
+      <element id="module-output" name="sournergh-core" />
     </root>
   </artifact>
 </component>

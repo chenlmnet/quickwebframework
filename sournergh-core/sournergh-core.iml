@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="sournergh-core.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="sournergy-core" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Manifest-Version" value="1.0" />
+          <property key="Bundle-ManifestVersion" value="2" />
+          <property key="Bundle-Name" value="Sournergy-core" />
+          <property key="Bundle-Version" value="1.0.0.qualifier" />
+          <property key="Import-Package" value="javax.servlet," />
+          <property key="javax.servlet.http," value="" />
+          <property key="org.osgi.framework;version" value="&quot;1.3.0&quot;" />
+          <property key="Bundle-RequiredExecutionEnvironment" value="J2SE-1.5" />
+          <property key="Require-Bundle" value="qwf-core;bundle-version=&quot;1.0.0&quot;," />
+          <property key="qwf-db-jdbc;bundle-version" value="&quot;1.0.0&quot;," />
+          <property key="qwf-db-jdbc-spring;bundle-version" value="&quot;1.0.0&quot;," />
+          <property key="qwf-db-orm-springjdbc;bundle-version" value="&quot;3.2.0&quot;," />
+          <property key="qwf-ioc;bundle-version" value="&quot;1.0.0&quot;," />
+          <property key="qwf-ioc-spring;bundle-version" value="&quot;3.2.0&quot;," />
+          <property key="qwf-view-springmvc;bundle-version" value="&quot;3.2.0&quot;," />
+          <property key="qwf-vr;bundle-version" value="&quot;1.0.0&quot;," />
+          <property key="qwf-vr-velocity;bundle-version" value="&quot;1.7.0&quot;" />
+          <property key="Bundle-ClassPath" value="." />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/web-lib" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/web-template" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="org.osgi.core-4.3.1" level="project" />
+    <orderEntry type="module" module-name="qwf-view-springmvc" />
+    <orderEntry type="module" module-name="qwf-ioc-spring" />
+    <orderEntry type="library" name="org.springframework.data:spring-data-jpa:1.6.6.RELEASE" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ECLIPSE" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.26" level="application_server_libraries" />
+    <orderEntry type="library" name="com.sun.mail:javax.mail:1.4.5" level="application" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.6.1" level="application" />
+  </component>
+</module>
