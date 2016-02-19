@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1455877692485
+Build-Jdk: 1.7.0_79
+Built-By: chenlm
+Bundle-ManifestVersion: 2
+Bundle-Name: Spring OSGi Bundle
+Bundle-SymbolicName: com.chenlm.sournergy.company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-2.1.0.20130426-122213

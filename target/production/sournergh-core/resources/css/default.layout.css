@@ -1,0 +1,361 @@
+body {
+    background-color: #ebebeb;
+}
+
+.panel-default:hover > .panel-heading {
+    /*border-bottom-color: #eea236;*/
+}
+
+.panel-default:hover {
+    /*border-left-color: #eea236;*/
+    /*border-left-style: solid!important;*/
+}
+
+.panel_comp .panel-body {
+    border-bottom: 1px solid #ddd;
+}
+
+.panel {
+    margin-bottom: 10px;
+}
+
+.panel_comp h3 {
+    margin: 0 0 6px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.panel_comp p {
+    text-indent: 2em;
+    margin-top: 10px;
+}
+
+.panel_comp .dl-horizontal {
+    margin-bottom: 0px;
+}
+
+.panel_comp .panel-body:last-child {
+    border-bottom: none;
+}
+
+.panel_comp .panel-footer {
+    border-top: none;
+}
+
+.panel_comp .panel-body dt img {
+    width: 150px;
+    height: 150px;
+}
+
+.panel_comp .media .media-left button.btn {
+    line-height: 8px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+}
+
+.comp_active {
+    border-color: #eea236;
+}
+
+.order_by {
+    margin: 0;
+}
+
+.search_no {
+    margin: 0 0 10px 0;
+}
+
+.panel-heading h5 {
+    margin: 0;
+    padding: 4px 0;
+}
+
+.invite_code, .invite_login {
+    width: 45%;
+}
+
+.invite_code .panel {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.invite_code .panel-body {
+    height: 211px;
+}
+
+.invite_login .panel {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-style: dashed;
+}
+
+.info_box>.panel {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.info_box:hover>.panel, .info_box:hover ul.nav-tabs {
+    border-color: #eea236;
+}
+
+.info_box:hover ul.nav-tabs li a {
+    border-bottom-width: 0;
+}
+
+.info_box:hover ul.nav-tabs li.active a {
+    border-top-color: #eea236;
+    border-left-color: #eea236;
+    border-right-color: #eea236;
+    border-bottom-width: 1px;
+}
+
+.info_box .form-group label.control-label {
+    text-align: left;
+    font-weight: normal;
+}
+
+.info_box ul.nav a {
+    cursor: pointer;
+}
+
+.i_judge {
+    margin-top: -3px;
+}
+
+.i_focus {
+    border: medium none;
+    height: 83px;
+    margin-right: -15px;
+    margin-top: -10px;
+    line-height: 32px;
+    /*color: #eea236;*/
+    background-color: #fefefe!important;
+    border-radius: 0;
+}
+
+.i_focus:hover {
+    background-color: #efefde!important;
+}
+
+.vmiddle {
+    vertical-align: middle !important;
+}
+
+button.judge_submit {
+    display: none;
+}
+
+tr.addTags {
+
+}
+
+.nav-tabs a {
+    font-weight: bold;
+}
+
+#sidebarContainer div.hlsort table:hover tr:first-child span,
+#sidebarContainer div.hlsort table:hover tr:nth-child(2) span,
+#sidebarContainer div.hlsort table:hover tr:nth-child(3) span {
+    background-color: #337ab7;/*#f0ad4e;*/
+}
+
+#sidebarContainer div.hlsort:hover .panel-heading span.glyphicon {
+    /*color: #f0ad4e;*/
+}
+
+#contentContainer dl.dl-horizontal span.label {
+    background-color: inherit;
+}
+
+#headerContainer header {
+    margin-bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#headerContainer .panel-heading {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+#headerContainer .panel-heading .container a {
+    color: white;
+}
+
+#headerContainer .panel-heading .container a.btn {
+    color: black;
+    margin: 0 5px;
+}
+
+#headerContainer div.logo {
+    background-color: #333;
+    font-size: 28px;
+    padding: 3px 26px 10px;
+    color: white;
+    margin-bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+}
+
+#headerContainer div.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+#headerContainer div.logo div.logo_small {
+    font-size: 12px;
+    text-align: left;
+}
+
+#headerContainer a.nav {
+    height: 70px;
+    line-height: 48px;
+    border-radius: 0;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding: 10px 20px;
+}
+
+#headerContainer a.nav {
+    color: black;
+}
+
+#headerContainer span.btn-group:first-child a.nav {
+    border-left: 1px solid #ccc;
+}
+
+#headerContainer div.form-group a.nav {
+    border-left: 1px solid #ccc;
+}
+
+#footerContainer {
+    border-top: 1px solid #DDDDDD;
+    padding: 10px 0 5px;
+}
+
+#searchbox {
+    margin: 12px 0 12px 10px;
+}
+
+#searchbox .input-group-lg {
+    margin-right: 10px;
+}
+
+#searchpanContainer button.btn_search {
+    position: absolute;
+    left: 780px;
+    bottom: 40px;
+}
+
+div.user_info img.img-thumbnail {
+    width: 100%;
+}
+
+div.select_btn button.btn {
+    border-radius: 0;
+    margin-right: -1px;
+}
+
+div.select_btn div.btn {
+    border-radius: 0;
+    margin-right: -1px;
+}
+
+div.products img {
+    width: 128px;
+    height: 128px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+div.products img:nth-child(6n) {
+    margin-right: 0px;
+}
+
+div.check_btn .active {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #fff;
+}
+
+div.check_btn .active:focus {
+    background-color: #ec971f;
+    border-color: #985f0d;
+    color: #fff;
+}
+div.check_btn .active:hover, div.check_btn .active:active {
+    background-color: #ec971f;
+    border-color: #d58512;
+    color: #fff;
+}
+
+.comp_point span.badge {
+    background-color: #265a88;
+}
+
+.btn-default {
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.btn_radio div.btn {
+    margin-bottom: 6px;
+}
+
+.dropdown-menu > li > span {
+    clear: both;
+    color: #333;
+    display: block;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 3px 20px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.dropdown-menu > li > span:hover, .dropdown-menu > li > span:focus {
+    background-color: #f5f5f5;
+    color: #262626;
+    text-decoration: none;
+}
+
+div.add_contractor {
+    cursor: pointer;
+}
+
+div.add_contractor:hover, div.add_contractor:focus {
+    color: red;
+}
+
+img.vcode {
+    padding: 2px 0;
+}
+
+.vcode {
+    vertical-align: bottom;
+}
+
+.v_bottom {
+    vertical-align: bottom;
+}
+
+.btn_more {
+    margin-top: 5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+div.companyContent p {
+    text-indent: 2em;
+}
+
+div.hideMore {
+    display: none;
+}

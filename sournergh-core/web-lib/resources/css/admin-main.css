@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* import admin-ui-styles */
+@import url(../resources/components/core/css/admin.css);
+
+/* main stylesheet for pulse */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+/* admin section */
+div.admin {
+    border: 1px solid #9abd84;
+}
+
+div.adminDescription {
+    border-bottom: 1px solid #9abd84;
+    background: #daf0cc;
+    color: #000000;
+    width: 100%;
+    margin-bottom: 5px;
+	min-height: 72px;
+}
+
+/* errors */
+em.error {
+    font-weight: bold;
+    color: #FF0000;
+}

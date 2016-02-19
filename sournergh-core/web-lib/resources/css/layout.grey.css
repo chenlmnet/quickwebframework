@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* clearing of default browser styles */
+@import url(clearing.css);
+/* default css definitions */
+@import url(defaults.css);
+/* default demo-layout css definitions */
+@import url(defaults.demo-layout.css);
+@import url(../resources/components/shop/css/demo-layout.css);
+@import url(../resources/components/store/css/demo-layout.css);
+/* main stylesheet for the demo layout */
+body {
+    background:#ffffff url(../resources/components/core/demo-layout/body.bg.light.grey.png) repeat-x top right;
+}
+/* box layout */
+.box,
+#headerContainer,
+#footerContainer,
+#searchBoxContainer,
+#sidebarContainer .filterPanelContainer,
+#treeMenuContainer,
+#sidebarContainer .shoppingCartCompactWrapper,
+#sidebarContainer .loginBoxWrapper,
+#advancedSearchContainer,
+#contentContainer .loginBoxWrapper,
+#contentAttachmentsContainer,
+.debugAreaWrapper,
+#contentContainer .debugAreaWrapper {
+    border: 1px solid #DFDFDF;
+    background: url(../resources/components/core/demo-layout/box.bg.light.grey.png);
+}
+hr {
+    border-top: 1px solid #FFFFFF;
+    border-right: 0;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 0;
+}
+#breadCrumbContainer {
+    border: 1px solid #DFDFDF;
+}
+#FilterContentReferenceDurationCalendarAJAXWrapper table tbody td.monthSELECTED a {
+    border: 1px solid #DFDFDF;
+}

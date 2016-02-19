@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qwf-core/qwf-core.iml" filepath="$PROJECT_DIR$/qwf-core/qwf-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-db-jdbc/qwf-db-jdbc.iml" filepath="$PROJECT_DIR$/qwf-db-jdbc/qwf-db-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-db-jdbc-spring/qwf-db-jdbc-spring.iml" filepath="$PROJECT_DIR$/qwf-db-jdbc-spring/qwf-db-jdbc-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-db-orm-mybatis/qwf-db-orm-mybatis.iml" filepath="$PROJECT_DIR$/qwf-db-orm-mybatis/qwf-db-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-db-orm-springjdbc/qwf-db-orm-springjdbc.iml" filepath="$PROJECT_DIR$/qwf-db-orm-springjdbc/qwf-db-orm-springjdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-db-orm-springjdbc-spring/qwf-db-orm-springjdbc-spring.iml" filepath="$PROJECT_DIR$/qwf-db-orm-springjdbc-spring/qwf-db-orm-springjdbc-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-ioc/qwf-ioc.iml" filepath="$PROJECT_DIR$/qwf-ioc/qwf-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-ioc-spring/qwf-ioc-spring.iml" filepath="$PROJECT_DIR$/qwf-ioc-spring/qwf-ioc-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-core/qwf-school-mis-core.iml" filepath="$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-core/qwf-school-mis-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-student/qwf-school-mis-student.iml" filepath="$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-student/qwf-school-mis-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-web/qwf-school-mis-web.iml" filepath="$PROJECT_DIR$/examples/qwf-school-mis/qwf-school-mis-web/qwf-school-mis-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-view-jsp/qwf-view-jsp.iml" filepath="$PROJECT_DIR$/qwf-view-jsp/qwf-view-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-view-springmvc/qwf-view-springmvc.iml" filepath="$PROJECT_DIR$/qwf-view-springmvc/qwf-view-springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-view-struts2/qwf-view-struts2.iml" filepath="$PROJECT_DIR$/qwf-view-struts2/qwf-view-struts2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-vr/qwf-vr.iml" filepath="$PROJECT_DIR$/qwf-vr/qwf-vr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-vr-freemarker/qwf-vr-freemarker.iml" filepath="$PROJECT_DIR$/qwf-vr-freemarker/qwf-vr-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-vr-jsp/qwf-vr-jsp.iml" filepath="$PROJECT_DIR$/qwf-vr-jsp/qwf-vr-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf-vr-velocity/qwf-vr-velocity.iml" filepath="$PROJECT_DIR$/qwf-vr-velocity/qwf-vr-velocity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/qwf.test.core/qwf.test.core.iml" filepath="$PROJECT_DIR$/examples/qwf.test.core/qwf.test.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/qwf.test.web/qwf.test.web.iml" filepath="$PROJECT_DIR$/examples/qwf.test.web/qwf.test.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwf_web/qwf_web.iml" filepath="$PROJECT_DIR$/qwf_web/qwf_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sournergh-core/sournergh-core.iml" filepath="$PROJECT_DIR$/sournergh-core/sournergh-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sournergy-company/sournergy-company.iml" filepath="$PROJECT_DIR$/sournergy-company/sournergy-company.iml" />
+    </modules>
+  </component>
+</project>

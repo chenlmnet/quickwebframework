@@ -1,0 +1,15 @@
+----------------------------------------------------------------
+Fri Feb 19 14:28:58 CST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-0152-f837-947b-ffff92ba7d0a 
+on database directory /disk/doc/quickwebframework/target/db  with class loader WebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@62b9a65b
+ 
+Loaded from file:/disk/doc/quickwebframework/target/webroot/WEB-INF/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b15
+user.dir=/usr/share/tomcat8/bin
+derby.system.home=/disk/doc/quickwebframework/target/webroot
+Database Class Loader started - derby.database.classpath=''
