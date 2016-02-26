@@ -260,7 +260,7 @@ public class BundleUtils {
 				logger.config("RemovalPendingBundle:"
 						+ bundle.getSymbolicName());
 			}
-			frameworkWiring.refreshBundles(null);
+			frameworkWiring.refreshBundles(null, null);
 
 		} catch (Error error) {
 			logger.warning("RemovalPendingBundle error." + error.getMessage());
